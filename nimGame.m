@@ -65,6 +65,8 @@ function nimGame()
     else
       fprintf('Giliran Raja Iblis!\n');
       %insert COM routine here
+      stepCOM(stoneAmount(1), stoneAmount(2), stoneAmount(3));
+      fprintf('Raja Iblis mengambil %i batu dari heap ke-%i\n',amount,source);
       giliranJalan = 1;
     end
   end
