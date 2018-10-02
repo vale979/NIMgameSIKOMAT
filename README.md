@@ -5,6 +5,8 @@ Anda dipersilahkan untuk menggunakan, mengubah, atau mendistribusikan fork dari 
 
 Lisensi: MIT License. Lebih lanjut silahkan cek pada LICENSE.
 
+Program utama dapat anda jalankan dengan mengexecute nimGame.m dengan Matlab. Pastikan seluruh file .m ada pada direktori yang sama.
+
 All right reserved.
 
 Sincerely,
