@@ -16,3 +16,5 @@ Musa Izzanardi Wijanarko (10117079)
 Salman Al Farisi (10316024)
 
 Valerian Mahdi Pratama (10117049)
+
+#STATUS: NOT FINISHED (HARAP BERSABAR)
