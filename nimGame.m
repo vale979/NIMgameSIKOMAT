@@ -2,15 +2,18 @@ function nimGame()
   %inisialisasi vector yang akan dipakai utk converter angka biner
   a = [];
   b = [];
-  c = [];
+  c = []; 
   
   verifiedStart = false;
   
   maxStone = 1000; %bisa diganti-ganti sesuai keperluan heehi
   
   while(verifiedStart ~= true)
-    %rig the game so the player wont have winning position at start huhehe
+    %Generate 3 random integer in range [1,maxStone]
+    %and store it on vector stoneAmount
     stoneAmount = randi(maxStone,1,3);
+    
+    %rig the game so the player wont have winning position at start huhehe
     if(hitungXOR(stoneAmount(1), stoneAmount(2), stoneAmount(3)) == 0)
       verifiedStart = true;
     end
@@ -46,22 +49,23 @@ function nimGame()
       if((chooseHeap > 3) || (chooseHeap < 0))
         %Kalau input ga valid
         fprintf('Inputmu ga valid. Kamu pikir ini CTF?\n');
-        fprintf('Saya ga suka dicurangi begini, kamu kalah!.\n');
-        return;
+        fprintf('Raja Iblis ga suka dicurangi begini, kamu kalah!.\n');
+        error('Mission Failed!');
       end
       chooseAmount = input('Oke, mau ambil berapa?');
       if((chooseAmount > stoneAmount(chooseHeap)) || (chooseAmount <= 0))
         %Kalau input ga valid
         fprintf('Inputmu ga valid. Kamu pikir ini CTF?\n');
-        fprintf('Saya ga suka dicurangi begini, kamu kalah!.\n');
-        return;
+        fprintf('Raja Iblis ga suka dicurangi begini, kamu kalah!.\n');
+        error('Mission Failed!');
       end
       fprintf('Oke, kamu ambil %i batu dari heap ke-%i\nJangan nyesal ya..',chooseAmount,chooseHeap);
       stoneAmount(chooseHeap) = stoneAmount(chooseHeap)-chooseAmount;
       giliranJalan = 0;
     else
-      %insert COM routine here
       fprintf('Giliran Raja Iblis!\n');
+      %insert COM routine here
+      giliranJalan = 1;
     end
   end
 end
