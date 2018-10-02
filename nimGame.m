@@ -1,4 +1,4 @@
-
+function nimGame()
   %inisialisasi vector yang akan dipakai utk converter angka biner
   a = [];
   b = [];
