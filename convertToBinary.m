@@ -23,6 +23,6 @@ end
 biner(i + 1) = num2str(flooring);
 biner = fliplr(biner);
 
-binaryvector = biner-'0'; % ini vektornya
+vekbin = biner-'0'; % ini vektornya
 
 end
