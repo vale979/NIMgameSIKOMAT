@@ -1,6 +1,5 @@
 function convertToBinary(num) %hey there, we have 3 num to be converted into array of binary!
   %insert function here
-  
 num = input('enter decimal: '); % kalo ada di main, abaikan 
 
 i = 1; % jadi awalnya ada i untuk indeks vektor "biner"
