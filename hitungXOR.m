@@ -11,7 +11,7 @@ function res = hitungXOR(numA, numB, numC)
    res = 0;
    pjXOR = length(jumlahXOR);
    for i= 0:pjXOR-1
-     unsurjXOR = d(pjXOR-i);
+     unsurjXOR = jumlahXOR(pjXOR-i);
      polDua = 2^i;  %perpangkatan 2
      res = res + unsurjXOR*polDua;  %hasil akhir, res = jumlahXOR dalam desimal
    end
