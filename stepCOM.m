@@ -1,4 +1,4 @@
-function [source, amount] = stepCOM(numA, numB, numC)
+function [source, amount] = stepCOM(numA, numB, numC, stoneAmount)
 %inisialisasi
 source = -1;
 amount = -1;
