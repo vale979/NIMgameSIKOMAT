@@ -85,7 +85,7 @@ function nimGame()
     fprintf('Kamu kalah!\n');
     fprintf('Umat manusia bersiap menghadapi kehancuran mereka...\n');
     pause(0.3);
-    fprintf('LOOK WHAT HAVE YOU DONE TO HUMANITY\n');
+    fprintf(2,'LOOK WHAT HAVE YOU DONE TO HUMANITY\n');
   else
     pause(1);
     fprintf('Loh, kok kamu bisa menang sih...\n');
