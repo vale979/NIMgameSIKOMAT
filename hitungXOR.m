@@ -1,7 +1,8 @@
 function res = hitungXOR(numA, numB, numC)
-  %insert function here
-  %insert pemanggilan fungsi convertbiner here
-  %ubah biner ke vektor biner here
+
+  vekbinA = convertToBinary(numA); %pemanggilan fungsi convertToBinary
+  vekbinB = convertToBinary(numB); % vekbin adalah biner berbentuk vektor
+  vekbinC = convertToBinary(numC);
   
   %note: vektor biner dinamakan vekbinA, vekbinB, dan vekbinC
   sumVekbin = vekbinA + vekbinB + vekbinC;
