@@ -1,10 +1,4 @@
 function convertToBinary(num1,num2,num3) %hey there, we have 3 num to be converted into array of binary!
-  %insert function here
-  
-num1 = input('enter num1: '); % kalo ada di main, abaikan 
-num2 = input('enter num2: ');
-num3 = input('enter num3: ');
-
 
 i = 1; % jadi awalnya ada i untuk indeks vektor "biner"
 j = 1;
